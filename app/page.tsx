@@ -1,5 +1,6 @@
 import BillingSection from '@/components/BillingSection';
 import BusinessSection from '@/components/BusinessSection';
+import CardDealSection from '@/components/CardDealSection';
 import HeroSection from '@/components/HeroSection';
 import Navbar from '@/components/Navbar';
 import StateSection from '@/components/StateSection';
@@ -25,6 +26,7 @@ export default function Home() {
           <StateSection />
           <BusinessSection />
           <BillingSection />
+          <CardDealSection />
         </div>
       </div>
     </div>
