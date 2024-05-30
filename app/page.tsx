@@ -1,3 +1,4 @@
+import BusinessSection from '@/components/BusinessSection';
 import HeroSection from '@/components/HeroSection';
 import Navbar from '@/components/Navbar';
 import StateSection from '@/components/StateSection';
@@ -21,6 +22,7 @@ export default function Home() {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <StateSection />
+          <BusinessSection />
         </div>
       </div>
     </div>
