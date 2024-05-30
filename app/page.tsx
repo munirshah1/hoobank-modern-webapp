@@ -1,3 +1,4 @@
+import BillingSection from '@/components/BillingSection';
 import BusinessSection from '@/components/BusinessSection';
 import HeroSection from '@/components/HeroSection';
 import Navbar from '@/components/Navbar';
@@ -23,6 +24,7 @@ export default function Home() {
         <div className={`${styles.boxWidth}`}>
           <StateSection />
           <BusinessSection />
+          <BillingSection />
         </div>
       </div>
     </div>
