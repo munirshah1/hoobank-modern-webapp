@@ -2,7 +2,7 @@ import styles from '@/styles';
 import GetStarted from './GetStarted';
 import Image from 'next/image';
 
-const HeroSection = () => {
+export default function HeroSection() {
   return (
     <section
       id='home'
@@ -68,6 +68,4 @@ const HeroSection = () => {
       </div>
     </section>
   );
-};
-
-export default HeroSection;
+}
