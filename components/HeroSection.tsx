@@ -1,7 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
 import styles from '@/styles';
 import GetStarted from './GetStarted';
-// import { discount, robot } from '../assets';
+import Image from 'next/image';
 
 const HeroSection = () => {
   return (
@@ -13,10 +12,12 @@ const HeroSection = () => {
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2'>
-          <img
+          <Image
             src={'/assets/Discount.svg'}
             alt='discount'
             className='w-[32px] h-[32px]'
+            width={32}
+            height={32}
           />
           <p className={`${styles.paragraph} ml-2`}>
             <span className='text-white'>20%</span> Discount For{' '}
@@ -47,10 +48,12 @@ const HeroSection = () => {
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
-        <img
+        <Image
           src={'/assets/robot.png'}
           alt='billing'
           className='w-[100%] h-[100%] relative z-[5]'
+          width={400}
+          height={400}
         />
 
         {/* gradient start */}

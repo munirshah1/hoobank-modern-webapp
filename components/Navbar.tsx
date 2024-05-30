@@ -1,8 +1,8 @@
 'use client';
 
-/* eslint-disable @next/next/no-img-element */
 import { useState } from 'react';
 import { navLinks } from '@/contants';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [active, setActive] = useState('Home');
@@ -10,10 +10,12 @@ export default function Navbar() {
 
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <img
+      <Image
         src={'/assets/logo.svg'}
         alt='hoobank'
         className='w-[124px] h-[32px]'
+        width={124}
+        height={32}
       />
 
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
@@ -31,11 +33,13 @@ export default function Navbar() {
       </ul>
 
       <div className='sm:hidden flex flex-1 justify-end items-center'>
-        <img
+        <Image
           src={toggle ? '/assets/close.svg' : '/assets/menu.svg'}
           alt='menu'
           className='w-[28px] h-[28px] object-contain'
           onClick={() => setToggle(!toggle)}
+          width={28}
+          height={28}
         />
 
         <div
