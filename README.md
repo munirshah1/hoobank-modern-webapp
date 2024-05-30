@@ -1,6 +1,6 @@
 # HooBank - Modern UI/UX website using Next JS & Tailwind CSS
 
-![HooBank](/public/assets/hoobank%20cover%20image.png)
+![HooBank](/public/assets/hoobank-cover-image.png)
 
 Youtube Video [Click Here](https://www.youtube.com/watch?v=_oO4Qi5aVZs)
 
