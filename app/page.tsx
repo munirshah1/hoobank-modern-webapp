@@ -1,3 +1,4 @@
+import HeroSection from '@/components/HeroSection';
 import Navbar from '@/components/Navbar';
 import styles from '@/styles';
 
@@ -7,6 +8,12 @@ export default function Home() {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
+        </div>
+      </div>
+
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <HeroSection />
         </div>
       </div>
     </div>
