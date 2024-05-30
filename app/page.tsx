@@ -1,9 +1,11 @@
 import BillingSection from '@/components/BillingSection';
 import BusinessSection from '@/components/BusinessSection';
 import CardDealSection from '@/components/CardDealSection';
+import ClientSection from '@/components/ClientSection';
 import HeroSection from '@/components/HeroSection';
 import Navbar from '@/components/Navbar';
 import StateSection from '@/components/StateSection';
+import TestimonialSection from '@/components/TestimonialSection';
 import styles from '@/styles';
 
 export default function Home() {
@@ -27,6 +29,8 @@ export default function Home() {
           <BusinessSection />
           <BillingSection />
           <CardDealSection />
+          <TestimonialSection />
+          <ClientSection />
         </div>
       </div>
     </div>
