@@ -1,4 +1,4 @@
-export default function Button({ styles }: { styles: string }) {
+export default function Button({ styles }: { styles?: string }) {
   return (
     <button
       type='button'
