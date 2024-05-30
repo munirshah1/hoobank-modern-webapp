@@ -3,6 +3,7 @@ import BusinessSection from '@/components/BusinessSection';
 import CardDealSection from '@/components/CardDealSection';
 import ClientSection from '@/components/ClientSection';
 import CTA from '@/components/CTA';
+import Footer from '@/components/Footer';
 import HeroSection from '@/components/HeroSection';
 import Navbar from '@/components/Navbar';
 import StateSection from '@/components/StateSection';
@@ -33,6 +34,7 @@ export default function Home() {
           <TestimonialSection />
           <ClientSection />
           <CTA />
+          <Footer />
         </div>
       </div>
     </div>
