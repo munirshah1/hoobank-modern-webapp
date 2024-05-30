@@ -165,7 +165,7 @@ export const socialMedia = [
   },
   {
     id: 'social-media-3',
-    icon: '/public/assets/twitter.svg',
+    icon: '/assets/twitter.svg',
     link: 'https://www.twitter.com/',
   },
   {
