@@ -1,4 +1,15 @@
+import Navbar from '@/components/Navbar';
+import styles from '@/styles';
+
 export default function Home() {
-  return <h2>Hello World</h2>;
+  return (
+    <div className='bg-primary w-full overflow-hidden'>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
+      </div>
+    </div>
+  );
 }
 
